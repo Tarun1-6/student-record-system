@@ -104,8 +104,7 @@ void updateStudent()
         if (student[i].roll == key)
         {
 
-            while ((getchar()) != '\n')
-                ; //  FLUSH HERE
+            while ((getchar()) != '\n'); //  FLUSH HERE
 
             printf("Enter new name: ");
             scanf("%[^\n]", student[i].name);
