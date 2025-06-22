@@ -69,8 +69,7 @@ void addStudent()
     printf("Enter roll number: ");
     scanf("%d", &student[count].roll);
 
-    while ((getchar()) != '\n')
-        ;
+    while ((getchar()) != '\n');
 
     printf("Enter name: ");
     scanf("%[^\n]", student[count].name);
